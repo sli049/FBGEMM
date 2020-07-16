@@ -197,7 +197,7 @@ void performance_test() {
             tid,
             num_threads);
       }
-
+      cout << "fbgemm finished" << endl;
       end = chrono::high_resolution_clock::now();
 
       if (i >= NWARMUP) {
